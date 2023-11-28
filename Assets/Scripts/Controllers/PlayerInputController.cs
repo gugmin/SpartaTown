@@ -18,6 +18,7 @@ public class PlayerInputController : TopDownCharacterController
         if (ui.activeSelf == false)
         {
             Vector2 moveInput = value.Get<Vector2>().normalized;
+            CallMoveEvent(moveInput);
             if (moveInput == Vector2.up)
             {
 
@@ -34,7 +35,6 @@ public class PlayerInputController : TopDownCharacterController
             {
 
             }
-            CallMoveEvent(moveInput);
         }
     }
 
