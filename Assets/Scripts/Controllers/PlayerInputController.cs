@@ -15,6 +15,23 @@ public class PlayerInputController : TopDownCharacterController
     public void OnMove(InputValue value)
     {
         Vector2 moveInput = value.Get<Vector2>().normalized;
+
+        if (moveInput == Vector2.up)
+        {
+
+        }
+        else if (moveInput == Vector2.down)
+        {
+
+        }
+        else if (moveInput == Vector2.left)
+        {
+
+        }
+        else if (moveInput == Vector2.right)
+        {
+
+        }
         CallMoveEvent(moveInput);
     }
 

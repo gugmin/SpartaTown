@@ -21,13 +21,4 @@ public class GameManager : MonoBehaviour
     //        milestone.SetActive(false);  //¿Ã¡§«•
     //    }
     //}
-
-
-
-
-
-
-
-
-
 }
