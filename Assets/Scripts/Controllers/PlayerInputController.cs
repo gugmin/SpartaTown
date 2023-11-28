@@ -1,12 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class PlayerInputController : TopDownCharacterController
 {
     private Camera _camera;
-    Vector3 playerDir;
+    public GameObject ui; 
     private void Awake()
     {
         _camera = Camera.main;
@@ -14,25 +15,27 @@ public class PlayerInputController : TopDownCharacterController
 
     public void OnMove(InputValue value)
     {
-        Vector2 moveInput = value.Get<Vector2>().normalized;
-
-        if (moveInput == Vector2.up)
+        if (ui.activeSelf == false)
         {
+            Vector2 moveInput = value.Get<Vector2>().normalized;
+            if (moveInput == Vector2.up)
+            {
 
-        }
-        else if (moveInput == Vector2.down)
-        {
+            }
+            else if (moveInput == Vector2.down)
+            {
 
-        }
-        else if (moveInput == Vector2.left)
-        {
+            }
+            else if (moveInput == Vector2.left)
+            {
 
-        }
-        else if (moveInput == Vector2.right)
-        {
+            }
+            else if (moveInput == Vector2.right)
+            {
 
+            }
+            CallMoveEvent(moveInput);
         }
-        CallMoveEvent(moveInput);
     }
 
     public void OnLook(InputValue value)
@@ -44,8 +47,6 @@ public class PlayerInputController : TopDownCharacterController
         {
             CallLookEvent(newAim);
         }
-        Debug.DrawRay(newAim, playerDir * 1.0f, Color.red);
-        RaycastHit2D raycast = Physics2D.Raycast(newAim, playerDir * 1.0f);
     }
 
     public void OnFire(InputValue value)
