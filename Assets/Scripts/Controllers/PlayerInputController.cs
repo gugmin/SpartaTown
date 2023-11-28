@@ -14,21 +14,12 @@ public class PlayerInputController : TopDownCharacterController
 
     public void OnMove(InputValue value)
     {
-        //Debug.Log("dddddddddddddddddd" + value.ToString());
         Vector2 moveInput = value.Get<Vector2>().normalized;
         CallMoveEvent(moveInput);
-        anim.SetFloat("Speed", dir.normalized.megnitude);
-        anim.ResetTrigger("Jump");
-    }
-
-    public void OnJump(InputValue value)
-    {
-        anim.SetTrigger("Jump");
     }
 
     public void OnLook(InputValue value)
     {
-        // Debug.Log("OnLook" + value.ToString());
         Vector2 newAim = value.Get<Vector2>();
         Vector2 worldPos = _camera.ScreenToWorldPoint(newAim);
         newAim = (worldPos - (Vector2)transform.position).normalized;
@@ -38,10 +29,6 @@ public class PlayerInputController : TopDownCharacterController
         }
         Debug.DrawRay(newAim, playerDir * 1.0f, Color.red);
         RaycastHit2D raycast = Physics2D.Raycast(newAim, playerDir * 1.0f);
-
-
-
-
     }
 
     public void OnFire(InputValue value)

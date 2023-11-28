@@ -227,8 +227,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 49895886}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.85, y: -0.57, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -834,7 +834,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &118933046
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -863,6 +863,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6867d84acdf79e48a693bde74de4323, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  anim: {fileID: 1560242355}
 --- !u!114 &118933048
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -875,7 +876,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 415bfd1f585afa942a0438f664a8a6be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  anim: {fileID: 1560242355}
 --- !u!50 &118933051
 Rigidbody2D:
   serializedVersion: 4
@@ -3490,7 +3490,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &573907093
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3519,6 +3519,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6867d84acdf79e48a693bde74de4323, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  anim: {fileID: 49895888}
 --- !u!114 &573907095
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3531,7 +3532,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 415bfd1f585afa942a0438f664a8a6be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  anim: {fileID: 49895888}
 --- !u!114 &573907096
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3622,8 +3622,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.4}
-  m_Size: {x: 0.6, y: 1}
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.7, y: 0.1}
   m_Direction: 0
 --- !u!4 &573907099
 Transform:

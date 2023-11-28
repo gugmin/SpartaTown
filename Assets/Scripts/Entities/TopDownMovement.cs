@@ -8,6 +8,7 @@ public class TopDownMovement : MonoBehaviour
     private TopDownCharacterController _controller;
     private Vector2 _movementDirection = Vector2.zero;
     private Rigidbody2D _rigidbody;
+    [SerializeField] private Animator anim;
 
     private void Awake()
     {
@@ -23,7 +24,6 @@ public class TopDownMovement : MonoBehaviour
     private void FixedUpdate()
     {
         ApplyMovment(_movementDirection);
-        
     }
 
     private void Move(Vector2 direction)
@@ -34,7 +34,7 @@ public class TopDownMovement : MonoBehaviour
     private void ApplyMovment(Vector2 direction)
     {
         direction = direction * 5;
-
+        anim.SetFloat("Speed", direction.normalized.magnitude);
         _rigidbody.velocity = direction;
     }
 }
