@@ -20,5 +20,4 @@ public class UiName : MonoBehaviour
     {
         Id.text = inputField.text;
     }
-
 }
