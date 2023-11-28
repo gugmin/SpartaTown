@@ -11,9 +11,9 @@ public class UiName : MonoBehaviour
     void Update()
     {
         if (inputField.text.Length < 2 || inputField.text.Length > 10)
-            button.GetComponent<Button>().interactable = false;
+            button.interactable = false;
         else
-            button.GetComponent<Button>().interactable = true;
+            button.interactable = true;
     }
 
     public void IdName()

@@ -1,7 +1,6 @@
 using System;
 using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class TimeNow : MonoBehaviour
 {
@@ -17,5 +16,4 @@ public class TimeNow : MonoBehaviour
     {
         text1.text = DateTime.Now.ToString("t");
     }
-
 }
