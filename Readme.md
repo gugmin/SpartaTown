@@ -91,10 +91,9 @@
 ![Unity](https://img.shields.io/badge/-Unity-%23000000?style=flat-square&logo=Unity)
 ![C#](https://img.shields.io/badge/-C%23-%7ED321?logo=Csharp&style=flat)
 
-
 ### 게임 시작 화면
 
-![GameStartScene](./Assets/Images/a1.png "a1")
+![GameStartScene](https://github.com/gugmin/SpartaTown/assets/149454489/6319d691-3d32-4d07-a763-3d948681ae56)
 
 * 현재 이름입력창에 아무것도 적지않아 버튼이 비활성화 된것을 볼 수 있다.
 * 이름 입력창 옆에 있는 이미지를 클릭하면 캐릭터를 바꿀 수 있다.
@@ -103,7 +102,7 @@
 
  __이름 입력시 버튼 활성화__  
 
-![active](./Assets/Images/a2.png)
+![active](https://github.com/gugmin/SpartaTown/assets/149454489/4cd94317-4612-4e31-a788-7ca98862cda6)
 
 * 이름을 입력하니 버튼이 활성화 되는걸 볼 수 있다.
 
@@ -111,12 +110,12 @@
 
 __캐릭터 선택__  
 
-![select](./Assets/Images/a3.png)
+![select](https://github.com/gugmin/SpartaTown/assets/149454489/73cf7488-8cf5-4f24-bb49-29d7fab2a5d0)
 
 * 캐릭터 선택창이다.
 * 원하는 캐릭터 선택시 시작화면 이미지가 바뀐다.
 
-![select](./Assets/Images/a4.png)
+![select](https://github.com/gugmin/SpartaTown/assets/149454489/aab1e515-cb8e-4942-8485-e21c27d49752)
 
 * 다른 캐릭터를 선택해도 이름이 유지되고 시작화면 이미지가 변경되는 모습이다.
 
@@ -124,14 +123,14 @@ __캐릭터 선택__
 
 __메인 화면__  
 
-![MainScene](./Assets/Images/a5.png)
+![MainScene](https://github.com/gugmin/SpartaTown/assets/149454489/f9591457-0ba6-4fdd-8b18-6016779a55d5)
 
 * 이름 / 캐릭터 버튼을 누르면 시작판넬을 다시 불러올 수 있고, <br/>
     참석 인원 버튼을 누르면 유저와 Npc의 이름을 볼 수 있다.
 
 __참석 인원__  
 
-![Pause](./Assets/Images/a6.png)
+![Pause](https://github.com/gugmin/SpartaTown/assets/149454489/c89a6345-dca1-4bc3-acc4-ebdb701f4b44)
 
 * 유저의 이름과 Npc의 이름이 잘 들어있다.
 * 위의 x 버튼을 누르면 다시 비활성화 시킬 수 있다.
@@ -140,13 +139,13 @@ __참석 인원__
 
 __Npc 대화__  
 
-![Talk0](./Assets/Images/a7.png)
+![Talk0](https://github.com/gugmin/SpartaTown/assets/149454489/b7df13a2-1de3-4f60-b4d9-cc5bd84d0fec)
 
-![Talk1](./Assets/Images/a8.png)
+![Talk1](https://github.com/gugmin/SpartaTown/assets/149454489/cac84bf2-0730-4a16-be88-2ea85d1708be)
 
 * Npc에게 다가가면 '대화하기' 버튼이 활성화 되는걸 볼 수 있다.
 
-![Talk2](./Assets/Images/a9.png)
+![Talk2](https://github.com/gugmin/SpartaTown/assets/149454489/928fcc8b-98b3-4d0b-85e6-4a1a366fb97f)
 
 * 대화하기를 눌르면 대화창이 나온다. 아래 유저의 말로 정해진것을 누를시 대화창을 벗어 날 수 있다.
 <br/>
@@ -155,7 +154,7 @@ __Npc 대화__
 
 __시간 표시__  
 
-![Timer](./Assets/Images/a10.png)
+![Timer](https://github.com/gugmin/SpartaTown/assets/149454489/e6498794-2e5d-4b58-b2ad-0fe266514cec)
 
 * 현재 시간을 보여주는 기능이다.
 
