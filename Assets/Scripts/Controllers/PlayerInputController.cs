@@ -36,6 +36,11 @@ public class PlayerInputController : TopDownCharacterController
 
             }
         }
+        else if (ui.activeSelf == true)
+        {
+            Vector2 moveInput = Vector2.zero;
+            CallMoveEvent(moveInput);
+        }
     }
 
     public void OnLook(InputValue value)
