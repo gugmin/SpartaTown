@@ -94,7 +94,7 @@
 
 ### 게임 시작 화면
 
-![GameStartScene](Images/a1.png)
+![GameStartScene](Images/a1.png "a1")
 
 * 현재 이름입력창에 아무것도 적지않아 버튼이 비활성화 된것을 볼 수 있다.
 * 이름 입력창 옆에 있는 이미지를 클릭하면 캐릭터를 바꿀 수 있다.
