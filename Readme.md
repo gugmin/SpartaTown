@@ -140,13 +140,13 @@ __참석 인원__
 
 __Npc 대화__  
 
-![Talk](Images/a7.png)
+![Talk0](Images/a7.png)
 
-![NormalEndPanel](Images/a8.png)
+![Talk1](Images/a8.png)
 
 * Npc에게 다가가면 '대화하기' 버튼이 활성화 되는걸 볼 수 있다.
 
-![NormalEndPanel](Images/a9.png)
+![Talk2](Images/a9.png)
 
 * 대화하기를 눌르면 대화창이 나온다. 아래 유저의 말로 정해진것을 누를시 대화창을 벗어 날 수 있다.
 <br/>
