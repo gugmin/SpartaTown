@@ -94,7 +94,7 @@
 
 ### 게임 시작 화면
 
-![GameStartScene](Assets/Images/a1.png "a1")
+![GameStartScene](/Assets/Images/a1.png "a1")
 
 * 현재 이름입력창에 아무것도 적지않아 버튼이 비활성화 된것을 볼 수 있다.
 * 이름 입력창 옆에 있는 이미지를 클릭하면 캐릭터를 바꿀 수 있다.
@@ -103,7 +103,7 @@
 
  __이름 입력시 버튼 활성화__  
 
-![active](AssetsImages/a2.png)
+![active](/Assets/Images/a2.png)
 
 * 이름을 입력하니 버튼이 활성화 되는걸 볼 수 있다.
 
@@ -111,12 +111,12 @@
 
 __캐릭터 선택__  
 
-![select](AssetsImages/a3.png)
+![select](/Assets/Images/a3.png)
 
 * 캐릭터 선택창이다.
 * 원하는 캐릭터 선택시 시작화면 이미지가 바뀐다.
 
-![select](AssetsImages/a4.png)
+![select](/Assets/Images/a4.png)
 
 * 다른 캐릭터를 선택해도 이름이 유지되고 시작화면 이미지가 변경되는 모습이다.
 
@@ -124,14 +124,14 @@ __캐릭터 선택__
 
 __메인 화면__  
 
-![MainScene](AssetsImages/a5.png)
+![MainScene](/Assets/Images/a5.png)
 
 * 이름 / 캐릭터 버튼을 누르면 시작판넬을 다시 불러올 수 있고, <br/>
     참석 인원 버튼을 누르면 유저와 Npc의 이름을 볼 수 있다.
 
 __참석 인원__  
 
-![Pause](AssetsImages/a6.png)
+![Pause](/Assets/Images/a6.png)
 
 * 유저의 이름과 Npc의 이름이 잘 들어있다.
 * 위의 x 버튼을 누르면 다시 비활성화 시킬 수 있다.
@@ -140,13 +140,13 @@ __참석 인원__
 
 __Npc 대화__  
 
-![Talk0](AssetsImages/a7.png)
+![Talk0](/Assets/Images/a7.png)
 
-![Talk1](AssetsImages/a8.png)
+![Talk1](/Assets/Images/a8.png)
 
 * Npc에게 다가가면 '대화하기' 버튼이 활성화 되는걸 볼 수 있다.
 
-![Talk2](AssetsImages/a9.png)
+![Talk2](/Assets/Images/a9.png)
 
 * 대화하기를 눌르면 대화창이 나온다. 아래 유저의 말로 정해진것을 누를시 대화창을 벗어 날 수 있다.
 <br/>
@@ -155,7 +155,7 @@ __Npc 대화__
 
 __시간 표시__  
 
-![Timer](AssetsImages/a10.png)
+![Timer](/Assets/Images/a10.png)
 
 * 현재 시간을 보여주는 기능이다.
 
